@@ -1,0 +1,33 @@
+.header{
+    text-align: center;
+    margin-top: -450px;
+}
+.head{
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+}
+.buttons{
+    
+}
+.text_content{
+    margin-top: 250px;
+    font-size: 3.5rem;
+}
+h1, p{
+    margin: 0%;
+    text-align: center;
+}
+.join{
+    padding-left: 500px;
+}
+.image-church{
+    background-image: url(img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
