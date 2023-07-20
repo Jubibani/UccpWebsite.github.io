@@ -11,7 +11,7 @@ html {
     font-size: 2.5rem;
     padding-bottom: 50px;
   }
-  
+  /*button container*/
   .buttons {
     display: flex;
     justify-content: center;
@@ -21,29 +21,52 @@ html {
     margin-top: 250px;
     font-size: 3.5rem;
   }
-  
+  .uccp{
+    margin-right: 10px;
+    position: relative;
+  }
   h1, p {
     margin: 0%;
     text-align: center;
+    color: white;
+    
   }
-  
+  /*the buttons*/
   .Join,
   .Give,
   .About {
+    /*Box model Properties*/
     position: relative;
-    background-color: transparent;
-    border-color: white;
-    border-radius: 18px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
+    width: 250px;
+    border-width: 3.5px;   /*set the border first before coloring*/
     display: inline-block;
-    font-size: 16px;
+    /*Typography*/
+    font-size: 20px;
+    /*colors and background*/
+    background-color: transparent;
+    border-color:white;
+    /*border and border radius*/
+    border-radius: 18px;
+    /*Padding and Margin*/
+    padding: 15px 32px;
+    margin-top: -135px;
+    margin-left: 35px;
     margin: 0 90px; /* This part created some space gaps*/
+    /*Text-Alignment*/
+    text-align: center;
+    /*transitions and effect*/
+    font-size: 30px;
+    color: white;
+  }
+  /*let's make a tooltip effect*/
+ 
+  .Join:hover{
+    content: counter(content);
   }
   
   body{
     overflow: hidden;
+    margin: 0;
   }
   .image-church {
     background-image: url(img/home.jpg);

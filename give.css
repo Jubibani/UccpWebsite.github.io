@@ -1,3 +1,72 @@
+body{
+  background: #EBF4FA;
+  margin: 0;
+}
+div{
+  background-color: #FFFFC2;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 0.025px;
+}
 h1{
   text-align: center;
+  margin: 0;
+  padding-top: 35px;
+  padding-bottom: 0;
+}
+p {
+  text-align: justify;
+  margin: 50px;
+  margin-top: 20px;
+  padding-top: 1;
+  margin-bottom: 20px;
+}
+.goback{
+  position: absolute;
+  font-size: large;
+  background-color: transparent;
+  border-radius: 18px;
+  margin-top: -140px;
+  margin-left: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 10%;
+}
+.div_don {
+  background-color: #1a1818;
+  padding-right: 100%;
+  padding: auto;
+  text-align: center;
+  display: flex;
+
+}
+.don_mon{
+  background-color: #1a1818;
+  color: white;
+  position: absolute;
+  font-size: 120%; /* Increase the font size to your desired value */
+  padding-left: 80px;;
+  padding-right: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+h2 {
+  text-align: center;
+  font-size: large;
+  background-color: transparent;
+  border-radius: 18px;
+  margin-top: 90px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.Donate{
+  position: absolute;
+  justify-content: center;
+  font-size: large;
+  background-color: transparent;
+  border-radius: 18px;
+  margin-top: 5px;
+  margin-left: 47.5%;
+  padding-top: 10px;
+  padding-bottom: 15px;
 }
