@@ -1,3 +1,7 @@
+html {
+  font-family: "CustomFont";
+  src: url("fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
+}
 body{
   background: #EBF4FA;
   margin: 0;
@@ -17,16 +21,17 @@ h1{
 p {
   text-align: justify;
   margin: 50px;
-  margin-top: 20px;
+  margin-top: 55px;
   padding-top: 1;
   margin-bottom: 20px;
+  font-size: 21px;;
 }
 .goback{
   position: absolute;
   font-size: large;
   background-color: transparent;
   border-radius: 18px;
-  margin-top: -140px;
+  margin-top: -190px;
   margin-left: 35px;
   padding-top: 15px;
   padding-bottom: 15px;

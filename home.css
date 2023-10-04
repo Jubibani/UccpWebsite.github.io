@@ -1,5 +1,6 @@
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "CustomFont";
+    src: url("fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
   }
   
   .header {
@@ -38,7 +39,7 @@ html {
     /*Box model Properties*/
     position: relative;
     width: 250px;
-    border-width: 3.5px;   /*set the border first before coloring*/
+    border-width: 2.0px;   /*set the border first before coloring*/
     display: inline-block;
     /*Typography*/
     font-size: 20px;
@@ -57,6 +58,8 @@ html {
     /*transitions and effect*/
     font-size: 30px;
     color: white;
+    font-family: "CustomFont";
+    src: url("fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
   }
   /*let's make a tooltip effect*/
  

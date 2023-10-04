@@ -1,3 +1,7 @@
+html {
+  font-family: "CustomFont";
+  src: url("fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
+}
 body{
   background: #EBF4FA;
   margin: 0;

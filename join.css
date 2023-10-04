@@ -1,3 +1,15 @@
+html {
+  font-family: "CustomFont";
+  src: url("fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
+}
 h1{
   text-align: center;
+}
+.scroll{
+  background-color: #fed9ff;
+  width: auto;
+  height: auto;
+  overflow: auto;
+  text-align: justify;
+  padding: 20px;
 }
